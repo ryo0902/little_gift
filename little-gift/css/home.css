@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.prof{
+  border-radius: 50%;
+  width:  57px;
+  height: 57px;
+  border: 1.5px solid #00FFFF; /* 枠線を付加 */
+  object-fit: cover;
+}
+.prof-align-middle{
+  font-weight: bold;
+  padding-top:15px;
+  padding-left: 10px;
+}
+/*マイページのやつ*/
+.card-prof{
+  border-radius: 50%;
+  width:  35px;
+  height: 35px;
+  border: 1px solid #00FFFF; /* 枠線を付加 */
+  object-fit: cover;
+}
+.card-prof-name{
+  font-weight: bold;
+
+    margin:0;
+    padding-top:4px;
+    padding-left: 10px;
+}
+
+/*カードフォームのテンプレート*/
+.radio {
+	display: none;
+}
+.radio_image{
+  max-width: 220px;
+  width:100%;
+  height:
+
+}
+
+.radio + .radio_image {
+	border: 3px #ffffff solid;
+	background-color: #ffffff;
+}
+.radio:checked + .radio_image {
+	border: 3px #ff0000 solid;
+	background-color: #ffeeee;
+}
+
+/*作ったカード*/
+.make_card{
+  max-width: 800px;
+  width:100%;
+  height: auto;
+}
+.make_card_wrap{
+  text-align: center;
+  margin: 0 auto;
+}
